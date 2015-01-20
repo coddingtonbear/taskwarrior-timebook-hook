@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='taskwarrior-timebook-hook',
-    version='0.2',
+    version='0.2.1',
     url='https://github.com/coddingtonbear/taskwarrior-timebook-hook',
     description=(
         'Track your tasks as Timebook entries',

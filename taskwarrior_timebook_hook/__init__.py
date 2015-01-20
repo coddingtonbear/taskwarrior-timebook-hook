@@ -25,7 +25,7 @@ def main(stdin):
         # Start tracking time to this task.
         set_current_task(modified['description'])
 
-    return json.dumps(modified)
+    return json.dumps(modified, separators=(',', ':'))
 
 
 def cmdline():
